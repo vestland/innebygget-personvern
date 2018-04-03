@@ -9,5 +9,5 @@ Formålet med innebygget personvern er at man skal være proaktiv i forhold til 
 ### Nyttige lenker
 
 * [Datatilsynets samleside for nye løsninger](https://www.datatilsynet.no/regelverk-og-skjema/lage-nye-losninger/)
-* [Datatilsynets syv steg til innebygd personvern](https://www.datatilsynet.no/regelverk-og-skjema/lage-nye-losninger/innebygd-personvern/)
+* [Datatilsynets syv steg til innebygd personvern](https://www.datatilsynet.no/regelverk-og-skjema/lage-nye-losninger/innebygd-personvern/) med [sjekkliste](https://www.datatilsynet.no/globalassets/global/skjema-maler/sjekkliste-for-innebygd-personvern.pdf)
 * [Datatilsynets veileder til utvikling med innebygd personvern](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/)
