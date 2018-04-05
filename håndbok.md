@@ -23,7 +23,7 @@ Formålet med innebygget personvern er at man skal være proaktiv i forhold til 
 * Det skal være på plass rutiner for sletting/arkivering når personopplysningene ikke lenger er relevant for formålet.
 * Personopplysninger bør ikke kommuniseres, behandles eller lagres i klartekst. Det kan for eksempel brukes pseudonymisering, kryptering og aggregering av personopplysninger.
 * Den registrerte bør bli tilstrekkelig informert om hvordan programvaren fungerer og hvordan personopplysninger behandles.
-* Den registrerte skal ha mulighet til å kontrollere personopplysningene. Det innebærer blant annet å be om innsyn, oppdatere og slette egne opplysninger. Dette kan være en manuelle eller en automatisk prosess.  
+* Den registrerte skal ha mulighet til å kontrollere personopplysningene. Det innebærer blant annet å be om innsyn, oppdatere og slette egne opplysninger. Dette kan være en manuell eller en automatisk prosess.  
 
 [Koding](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7734)
 * Opprette og vedlikeholde en liste over godkjente verktøy for bruk under utviklingen. Man bør til enhver tid bruke siste versjon av verktøyene.
