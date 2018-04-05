@@ -46,4 +46,4 @@ Formålet med innebygget personvern er at man skal være proaktiv i forhold til 
 * Vi forventer strukturerte metadata for alle dataflyter som inneholder GDPR klassifiseringen av data/prosess/behandling.
 
 ### Forbedringer det jobbes med
-* Et eget lagringsted for personopplysninger. Da kan man bruke interne ID'er for oppslag. Dette vil kunne føre til økt grad av pseudonymisering, og vil forbedre prosessen med behandlingen av personopplysninger. 
+* Et eget lagringssted for personopplysninger. Da kan man bruke interne IDer for oppslag. Dette vil kunne føre til økt grad av pseudonymisering, og vil forbedre prosessen med behandlingen av personopplysninger. 
