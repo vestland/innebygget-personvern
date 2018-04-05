@@ -19,7 +19,7 @@ Formålet med innebygget personvern er at man skal være proaktiv i forhold til 
 * Det bør gjennomføres en vurdering av eventuelle personvernkonsekvenser. Se [Hvordan vurdere personvernkonsekvenser](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/hvordan-vurdere-personvernkonsekvenser-pia/)
 
 [Design](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7733)
-* Sørge for at løsningen er utformet på en slik måte at man henter inn så lite personopplysninger som mulig for å oppnå formålet.
+* Sørge for at løsningen er utformet på en slik måte at man henter inn så lite personopplysninger som mulig for å oppnå formålet. Dette innebærer blant annet minst mulig bruk av fritekstfelt.
 * Det skal være på plass rutiner for sletting/arkivering når personopplysningene ikke lenger er relevant for formålet.
 * Personopplysninger bør ikke kommuniseres, behandles eller lagres i klartekst. Det kan for eksempel brukes pseudonymisering, kryptering og aggregering av personopplysninger.
 * Den registrerte bør bli tilstrekkelig informert om hvordan programvaren fungerer og hvordan personopplysninger behandles.
