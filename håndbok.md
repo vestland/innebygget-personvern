@@ -34,6 +34,7 @@ Formålet med innebygget personvern er at man skal være proaktiv i forhold til 
 [Test](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7735)
 * Utarbeide regime for automatisk kjøring av testsett.
 * Det bør utføres dynamisk testing, fuzz testing og penetrasjonstesting for å verifisere at personvernkrav og sikkerhetskrav er implementert. Eksempler på verktøy/ressurser man kan bruke:
+  * https://www.owasp.org/index.php/OWASP_Testing_Project
   * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
   * https://www.owasp.org/index.php/OWASP_Testing_Guide_Appendix_C:_Fuzz_Vectors
 
