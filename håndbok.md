@@ -27,14 +27,18 @@ Formålet med innebygget personvern er at man skal være proaktiv i forhold til 
 
 [Koding](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7734)
 * Opprette og vedlikeholde en liste over godkjente verktøy for bruk under utviklingen. Man bør til enhver tid bruke siste versjon av verktøyene.
-* Utføre regelmessig statisk kodeanalyse og kodegjennomgang.
+* Utføre regelmessig statisk kodeanalyse og kodegjennomgang. Eksempel på verktøy man kan bruke:
+  * https://github.com/coreos/clair
+  * https://www.owasp.org/index.php/OWASP_Dependency_Check
 
 [Test](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7735)
 * Utarbeide regime for automatisk kjøring av testsett.
-* Det bør utføres dynamisk testing, fuzz testing og penetrasjonstesting for å verifisere at personvernkrav og sikkerhetskrav er implementert.
+* Det bør utføres dynamisk testing, fuzz testing og penetrasjonstesting for å verifisere at personvernkrav og sikkerhetskrav er implementert. Eksempler på verktøy/ressurser man kan bruke:
+  * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+  * https://www.owasp.org/index.php/OWASP_Testing_Guide_Appendix_C:_Fuzz_Vectors
 
 [Produksjonssetting](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7736)
-* Utarbeid en plan for hendelseshåndtering.
+* Utarbeid en plan for hendelseshåndtering med definerte ressurser og et kontaktpunkt.
 * Sikkerhetsgjennomgang.
 * Sikkerhets- og personvernombud skal verifisere at alle definerte personvern- og sikkerhetskrav er implementert og fungerer etter hensikten.
 
