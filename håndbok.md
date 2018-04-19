@@ -6,6 +6,10 @@ Denne håndboken er ikke ment å være en fullstendig beskrivelse av prosessen r
 
 Formålet med innebygget personvern er at man skal være proaktiv i forhold til beskyttelse av brukerne. Man skal på forhånd ha tenkt gjennom hvilke opplysninger som er nødvendige å samle inn, hvordan disse skal behandles og hvor lenge det er nødvendig å oppbevare dem. Løsningen skal lages på en slik måte at brukerne er fullt klar over hva opplysningene skal brukes til, og designet bør være utformet slik at ikke brukeren ledes til å oppgi flere opplysninger enn det som er nødvendig for å oppnå formålet med løsningen.
 
+### Målgruppe
+
+Målgruppen for håndboken er alle som er involvert prosessen med anskaffelse av et nytt system og eventuelle utviklere/testere.
+
 ### Nyttige lenker
 
 * [Datatilsynets samleside for nye løsninger](https://www.datatilsynet.no/regelverk-og-skjema/lage-nye-losninger/)
@@ -19,16 +23,18 @@ Formålet med innebygget personvern er at man skal være proaktiv i forhold til 
 * Det bør gjennomføres en vurdering av eventuelle personvernkonsekvenser. Se ["Hvordan vurdere personvernkonsekvenser"](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/hvordan-vurdere-personvernkonsekvenser-pia/)
 
 [Design](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7733)
+* Tilgangen til systemet skal være begrenset. Systemet gir bare brukerne tilgang til den informasjonen some er nødvendig for å utføre den enkeltes oppgave.
+* Det skal være tilgangsautentisering. Se [passordpolicy](https://www.qmplus.com/qmplus/ShowFile/3879/0/0/0/0/Passordpolicy.pdf?Company=hfk) i kvalitetsportalen.
 * Sørge for at løsningen er utformet på en slik måte at man henter inn så lite personopplysninger som mulig for å oppnå formålet. Dette innebærer blant annet minst mulig bruk av fritekstfelt.
-* Personopplysninger bør ikke kommuniseres, behandles eller lagres i klartekst. Det kan for eksempel brukes pseudonymisering, kryptering og aggregering av personopplysninger.
-* Den registrerte bør bli tilstrekkelig informert om hvordan programvaren fungerer og hvordan personopplysninger behandles. Se ["Hva skal personvernerklæringen inneholde?"](https://www.datatilsynet.no/regelverk-og-skjema/lage-nye-losninger/personvernerklaeringer/)
+* Personopplysninger skal ikke kommuniseres, behandles eller lagres i klartekst. Det kan for eksempel brukes pseudonymisering, kryptering og aggregering av personopplysninger.
+* Det skal være på plass et system for samtykke og tilbaketrekking av samtykke ved innsamling av personopplysninger.
 * Den registrerte skal ha mulighet til å kontrollere personopplysningene. Det innebærer blant annet å be om innsyn, oppdatere og slette egne opplysninger. Dette kan være en manuell eller en automatisk prosess.
   * Det skal være på plass rutiner for sletting/arkivering når personopplysningene ikke lenger er relevant for formålet eller den registrerte ber om det.
   * Det skal være på plass rutiner for forespørsler om innsyn.
   * Det må gjøres en vurdering på hvordan løsningen, og systemer som avhenger av løsningen, blir påvirket dersom deler av datagrunnlaget blir fjernet. Løsningen må implementeres på en slik måte at fjerning av data ikke bryter med funksjonaliteten.
 
 [Koding](https://www.datatilsynet.no/regelverk-og-skjema/veiledere/programvareutvikling-med-innebygd-personvern/?id=7734)
-* Opprette og vedlikeholde en liste over godkjente verktøy for bruk under utviklingen. Man bør til enhver tid bruke siste versjon av verktøyene.
+* Opprette og vedlikeholde en liste over godkjente verktøy for bruk under utviklingen. Man bør til enhver tid bruke siste __offisielle__ versjon av verktøyene. Denne listen vil ofte være forskjellig fra prosjekt til prosjekt.
 * Utføre regelmessig statisk kodeanalyse og kodegjennomgang. Eksempel på verktøy man kan bruke:
   * https://github.com/coreos/clair
   * https://www.owasp.org/index.php/OWASP_Dependency_Check
